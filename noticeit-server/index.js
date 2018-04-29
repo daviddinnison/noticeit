@@ -7,7 +7,7 @@ const env = process.env
 const log = console.log
 // Set your port number for localhost
 // Could be 3000, 5000, 8000 or 8080. Other ports are not whitelisted.
-const port = env.PORT || 5000
+const port = env.PORT || 3000
 
 /** 
  * Load environment variables from .env file

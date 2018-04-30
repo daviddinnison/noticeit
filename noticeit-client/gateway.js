@@ -1,14 +1,11 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-// components
-import Gateway from './gateway';
-
-export default class App extends React.Component {
+export default class Gateway extends React.Component {
   render() {
     return (
       <View>
-        <Gateway/>
+        <Text>Gateway</Text>
       </View>
     );
   }

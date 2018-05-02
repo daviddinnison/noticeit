@@ -15,8 +15,8 @@ class Gateway extends Component {
     return (
       <Router>
         <Stack key="root">
-          <Scene key="mainView" component={MainView} title="Main" />
           <Scene key="configure" component={Configure} title="Configure" />
+          <Scene key="mainView" component={MainView} title="Main" />
           <Scene key="login" component={Login} title="Login" />
         </Stack>
       </Router>
